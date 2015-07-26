@@ -22,32 +22,42 @@
 		<h4 class="text-center">A Poll </h4>
 	</div>
 
-	<div class = "container lead" id="body" style="color:#32CC99" >
+	<div class = "container lead" style="color:#FDF3E7" >
 
 	<h3>Choose your favourite Tourist Spot from the list below </h3>
+
 		<form method = "post" action="update.php">
-			<div class = "radio" id = "agra" >
-				<label > <input type="radio" name = "opt" value = "agra">Agra</label>
-			</div>
-			<div class = "radio" id="varanasi">
-				<label> <input type = "radio" name = "opt" value = "varanasi">Varanasi</label>
-			</div>
-			<div class = "radio" id="lek">
-				<label> <input type = "radio" name = "opt" value = "lek">Ladakh</label>
-			</div>
-			<div class = "radio" id="humpi">
-				<label> <input type = "radio" name = "opt" value = "hampi">Hampi</label>
-			</div>
-			<div class = "radio" id="daj">
-				<label> <input type = "radio" name = "opt" value = "darjeeling">Darjeeling</label>
-			</div>
-			<div class = "radio" id="goa">
-				<label> <input type = "radio" name = "opt" value = "goa">Goa</label>
-			</div>
-			
-			<div class="text-center"> 
-				<input type = "submit" class="btn btn-primary" value="Submit">
-			</div>
+            <div class = "row">
+                <div class = "col-md-5">
+
+                    <div class = "radio" id = "agra" >
+                        <label > <input type="radio" name = "opt" value = "agra">Agra</label>
+                    </div>
+                    <div class = "radio" id="varanasi">
+                        <label> <input type = "radio" name = "opt" value = "varanasi">Varanasi</label>
+                    </div>
+                    <div class = "radio" id="lek">
+                        <label> <input type = "radio" name = "opt" value = "lek">Ladakh</label>
+                    </div>
+                    <div class = "radio" id="humpi">
+                        <label> <input type = "radio" name = "opt" value = "hampi">Hampi</label>
+                    </div>
+                    <div class = "radio" id="daj">
+                        <label> <input type = "radio" name = "opt" value = "darjeeling">Darjeeling</label>
+                    </div>
+                    <div class = "radio" id="goa">
+                        <label> <input type = "radio" name = "opt" value = "goa">Goa</label>
+                    </div>
+
+                    <div class="text-center"> 
+                        <input type = "submit" class="btn btn-primary" value="Submit">
+                    </div>
+                
+                </div>
+            
+                <div class = "col-md-5 col-md-offset-1" id = "body"></div>
+                
+            </div>
 		</form>
 	</div>
     

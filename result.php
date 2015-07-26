@@ -31,7 +31,7 @@
                 }   
             ?>
 
-            <canvas id="polling_chart" width="500" height="500" class = "center "></canvas>
+            <canvas id="polling_chart" width="400" height="400" class = "center" style="color:#005A31"></canvas>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
 
