@@ -12,6 +12,6 @@ if(!(mysql_connect($host,$user,$password)) || !(mysql_select_db($database))){
     die($error);
     //echo "connected";
 }
-echo "connected";
+//echo "connected";
 
 ?>
