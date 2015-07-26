@@ -10,9 +10,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body style="background-color:#3B3738">
     <div class = "jumbotron"> 
-        <h1> Results</h1>
+        <h1 class="text-center"> Results</h1>
     </div>
     <div class = "container" >
     
@@ -31,7 +31,7 @@
                 }   
             ?>
 
-            <canvas id="polling_chart" width="500" height="500" class = "center"></canvas>
+            <canvas id="polling_chart" width="500" height="500" class = "center "></canvas>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
 

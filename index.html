@@ -8,34 +8,40 @@
 
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src = "index_jquery.js"></script>
 
+    
 </head>
-<body>
+<body style="background-color:#3B3738">
+    
     <div class = "jumbotron">
 		<h1 class="text-center">Top Tourist Spots in India</h1>
 		<h4 class="text-center">A Poll </h4>
 	</div>
 
-	<div class = "container">
-	
+	<div class = "container lead" id="body" style="color:#32CC99" >
+
 	<h3>Choose your favourite Tourist Spot from the list below </h3>
 		<form method = "post" action="update.php">
-			<div class = "radio" >
-				<label> <input type="radio" name = "opt" value = "agra">Agra</label>
+			<div class = "radio" id = "agra" >
+				<label > <input type="radio" name = "opt" value = "agra">Agra</label>
 			</div>
-			<div class = "radio">
+			<div class = "radio" id="varanasi">
 				<label> <input type = "radio" name = "opt" value = "varanasi">Varanasi</label>
 			</div>
-			<div class = "radio">
+			<div class = "radio" id="lek">
 				<label> <input type = "radio" name = "opt" value = "lek">Ladakh</label>
 			</div>
-			<div class = "radio">
+			<div class = "radio" id="humpi">
 				<label> <input type = "radio" name = "opt" value = "hampi">Hampi</label>
 			</div>
-			<div class = "radio">
+			<div class = "radio" id="daj">
 				<label> <input type = "radio" name = "opt" value = "darjeeling">Darjeeling</label>
 			</div>
-			<div class = "radio">
+			<div class = "radio" id="goa">
 				<label> <input type = "radio" name = "opt" value = "goa">Goa</label>
 			</div>
 			
@@ -44,9 +50,10 @@
 			</div>
 		</form>
 	</div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
